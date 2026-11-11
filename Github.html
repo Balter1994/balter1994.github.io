@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Achile Brysse · GTM Engineer</title>
+<meta name="description" content="Sales professional with 10 years of experience, building go-to-market systems with HubSpot, Clay, n8n, Supabase and AI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+:root{--bg:#f4f6f9;--surface:#fff;--ink:#141b26;--muted:#5a6575;--line:#d9dfe7;--accent:#1f5fd1;
+--display:"Bricolage Grotesque",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root{--bg:#0f141c;--surface:#18202b;--ink:#e8edf4;--muted:#9ba7b7;--line:#2a3442;--accent:#6b9bff;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
+.wrap{max-width:760px;margin:0 auto;padding:56px 20px 64px;display:grid;gap:44px}
+.tag{font:12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:700 clamp(34px,6vw,52px)/1.05 var(--display);margin:8px 0 14px;text-wrap:balance}
+h2{font:600 22px var(--display);margin:0 0 14px}
+p{margin:0 0 12px;max-width:62ch}
+.lead{font-size:18px;color:var(--muted)}
+.stats{display:flex;flex-wrap:wrap;gap:28px;margin-top:20px}
+.stats b{display:block;font:700 28px var(--display)}
+.stats span{font-size:13px;color:var(--muted)}
+.stack{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.stack li{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;font-size:14px}
+.projects{display:grid;gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+.card h3{margin:0 0 4px;font:600 17px var(--display)}
+.card p{margin:0;color:var(--muted);font-size:15px}
+.status{font:12px var(--mono);color:var(--accent)}
+a{color:var(--accent)}
+footer{font-size:14px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="tag">Ghent area, Belgium · GTM Engineering</div>
+    <h1>Achile Brysse</h1>
+    <p class="lead">Sales professional with 10 years of experience, now building the systems behind sales: automated lead flows, enriched data and AI agents that save sales teams time.</p>
+    <div class="stats">
+      <div><b>10 yrs</b><span>in sales</span></div>
+      <div><b>113%</b><span>of target, last quarter</span></div>
+      <div><b>12 wks</b><span>GTM engineering track</span></div>
+    </div>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>In sales I hit my targets and saw how much time goes into manual work: researching leads, copying data into the CRM, tracking follow-ups. Since November 2026 I have been following an intensive learning path to automate exactly that work.</p>
+    <p>I combine a seller's view of the pipeline with hands-on skills in CRM, data, automation and AI. I am looking for a role as GTM Engineer, RevOps or Sales Operations specialist.</p>
+  </section>
+
+  <section>
+    <h2>Stack</h2>
+    <ul class="stack">
+      <li>HubSpot</li><li>SQL</li><li>n8n</li><li>Clay</li><li>Supabase</li><li>Claude / AI agents</li><li>APIs &amp; webhooks</li><li>Looker Studio</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card"><div class="status">In progress</div><h3>Automated lead follow-up</h3><p>Form → n8n → HubSpot → Slack alert, with duplicate checks.</p></div>
+      <div class="card"><div class="status">Planned · Dec 2026</div><h3>Signal-based lead list</h3><p>Clay table that finds, enriches and scores Belgian companies and writes a personal opening line.</p></div>
+      <div class="card"><div class="status">Planned · Jan 2027</div><h3>Lead database &amp; dashboard</h3><p>Supabase database fed by n8n, with a pipeline dashboard on top.</p></div>
+      <div class="card"><div class="status">Planned · Jan 2027</div><h3>AI research agent</h3><p>Claude agent that researches a company, scores it against the ideal customer profile and drafts an email.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    Contact: <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+  </footer>
+</main>
+</body>
+</html>
